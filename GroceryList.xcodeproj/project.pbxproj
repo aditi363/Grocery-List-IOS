@@ -14,6 +14,8 @@
 		214BA75F28014054008CF1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214BA75E28014054008CF1E8 /* Assets.xcassets */; };
 		214BA76228014054008CF1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214BA76028014054008CF1E8 /* LaunchScreen.storyboard */; };
 		214BA76C28019094008CF1E8 /* GroceryItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BA76B28019094008CF1E8 /* GroceryItemTableViewCell.swift */; };
+		8F62EAC128039AC900A5CF86 /* SQLiteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F62EAC028039AC900A5CF86 /* SQLiteHelper.swift */; };
+		8F62EAC328039D1300A5CF86 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F62EAC228039D1300A5CF86 /* ItemList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		214BA76128014054008CF1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		214BA76328014054008CF1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		214BA76B28019094008CF1E8 /* GroceryItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemTableViewCell.swift; sourceTree = "<group>"; };
+		8F62EAC028039AC900A5CF86 /* SQLiteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteHelper.swift; sourceTree = "<group>"; };
+		8F62EAC228039D1300A5CF86 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				214BA75E28014054008CF1E8 /* Assets.xcassets */,
 				214BA76028014054008CF1E8 /* LaunchScreen.storyboard */,
 				214BA76328014054008CF1E8 /* Info.plist */,
+				8F62EAC028039AC900A5CF86 /* SQLiteHelper.swift */,
+				8F62EAC228039D1300A5CF86 /* ItemList.swift */,
 			);
 			path = GroceryList;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F62EAC128039AC900A5CF86 /* SQLiteHelper.swift in Sources */,
 				214BA75A28014052008CF1E8 /* ViewController.swift in Sources */,
 				214BA75628014052008CF1E8 /* AppDelegate.swift in Sources */,
 				214BA76C28019094008CF1E8 /* GroceryItemTableViewCell.swift in Sources */,
+				8F62EAC328039D1300A5CF86 /* ItemList.swift in Sources */,
 				214BA75828014052008CF1E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
